@@ -17,6 +17,7 @@ The categories (y) for classifying a loan based on input data (X) are 0 - health
 
 * Machine Learning Model 1:
   * Model 1 was the linear regression model based on the original dataset.
+  
   Balanced Accuracy Score: 0.952
   This score suggests that the loan classifications made with the model are correct about 95 out of 100 loans.
 
@@ -30,6 +31,7 @@ The categories (y) for classifying a loan based on input data (X) are 0 - health
 
 * Machine Learning Model 2:
   * Model 2 was the linear regression model using resampled training data.
+
 Balanced Accuracy Score: 0.994
 This score suggests that the loan classifications made with the model are correct about 99 out of 100 loans.
 
