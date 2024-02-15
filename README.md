@@ -19,12 +19,15 @@ The categories (y) for classifying a loan based on input data (X) are 0 - health
   * Model 1 was the linear regression model based on the original dataset.
   
   Balanced Accuracy Score: 0.952
+  
   This score suggests that the loan classifications made with the model are correct about 95 out of 100 loans.
 
   Precision: 0 = 1.00, 1 = 0.85
+  
   This score suggests that when a loan is in the 0 (healthy loan) category, the number of loans in that category is almost exactly equal to the true number of loans that should be in that category. The score for the 1 (high-risk loan) category suggests that only 85 out of 100 loans in the 1 category should actually be in that category.
 
   Recall: 0 = 0.99, 1 = 0.85
+  
   The score for the 0 (healthy loan) category suggests that 1 out of 100 loans in the 0 category is not meant to be in that category. THe score for the 1 (high-risk loan) category suggests that 15 out of 100 loans in the 1 category are not meant to be in that category.
 
 
@@ -33,12 +36,15 @@ The categories (y) for classifying a loan based on input data (X) are 0 - health
   * Model 2 was the linear regression model using resampled training data.
 
 Balanced Accuracy Score: 0.994
+
 This score suggests that the loan classifications made with the model are correct about 99 out of 100 loans.
 
 Precision: 0 = 1.00, 1 = 0.84
+
 This score suggests that when a loan is in the 0 (healthy loan) category, the number of loans in that category is alomst exactly equal to the true number of loans that should be in that category. The score for the 1 (high-risk loan) category suggests that only 84 out of 100 loans in the 1 category should actually be in that category.
 
 Recall: 0 = 0.99, 1 = 0.99
+
 The score for the 0 (healthy loan) category suggests that 1 out of 100 loans in the 0 category is not meant to be in that category. The score for the 1 (high-risk loan) category suggests that 1 out of 100 loans in the 1 category is not meant to be in that category.
 
 ## Summary
